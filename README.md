@@ -1,1 +1,1 @@
-# TinCat : éxercice pour apprendre bootstrap
+# TinCat : Exercice pour apprendre bootstrap
