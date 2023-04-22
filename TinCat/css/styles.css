@@ -2,11 +2,12 @@
 
 #title{
     background-color: #ff4c68;
-    font-family: Montserrat, Arial ,Helvetica, sans-serif;
-    font-weight: 700;
+    
 }
-
-h2{
-    font-family: Montserrat, Arial,Helvetica, sans-serif;
+.h1-font{
+    font-family: Montserrat-black, Arial,Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
     font-weight: 900;
 }
+
