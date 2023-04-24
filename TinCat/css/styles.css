@@ -4,10 +4,35 @@
     background-color: #ff4c68;
     
 }
-.h1-font{
-    font-family: Montserrat-black, Arial,Helvetica, sans-serif;
-    font-size: 3rem;
+
+/* --------------------------------- images -------------------------------------- */
+
+.img-rotation{
+    transform: rotate(25deg);
+}
+
+/* -------------------------------- Customs Fonts -------------------------------- */
+
+.customf-M-h1-W{
+    font-family: Montserrat-black, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 5rem;
     line-height: 1.5;
     font-weight: 900;
 }
 
+.customf-U{
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.customf-size-header{
+    font-size: 1.5rem;
+}
+
+/* -------------------------------- containers -------------------------------- */
+
+.container-fluid {
+    padding: 3% 15%;
+}
