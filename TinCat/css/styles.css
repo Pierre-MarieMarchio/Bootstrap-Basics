@@ -1,15 +1,18 @@
-
 /* --------------------------------- images -------------------------------------- */
 .img-title {
-    width:60%;
-    transform: rotate(25deg);
-    position:absolute;
-    bottom: -200px;
-  
+  object-fit:contain;
+  height: 180%;
+  width: 60%;
+  max-height: 800px;
+  transform: rotate(25deg);
+  position: absolute;
+  bottom: -270px;
+  left: 25%;
 }
-/* .imgTitle-container{
-    max-width: 500px;
-} */
+.imgTitle-container {
+  /* max-height: 600px; */
+  position: relative;
+}
 /* --------------------------------- navbar bootstrap ---------------------------- */
 
 .navbar {
@@ -20,10 +23,9 @@
   padding: 0 18px;
 }
 
-
 /* -------------------------------- Buttons -------------------------------------- */
-.download-btn{
-    margin: 1rem ;
+.download-btn {
+  margin-left: 1rem;
 }
 /* -------------------------------- Customs Fonts -------------------------------- */
 
@@ -50,10 +52,10 @@
 
 /* -------------------------------- containers -------------------------------- */
 
-.red-section{
-    background-color: #FF4C68;
-    color:#fff;
-    }
+.red-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
 .white-section {
   background-color: #fff;
 }
@@ -65,33 +67,43 @@
 /* -------------------------------- Sections ------------------------------------- */
 
 #title {
-    color: white;
+  color: white;
+}
+
+#features {
+  position: relative;
+}
+
+@media (max-width: 1534px) {
+  .img-title {
+    height: 140%;
+    bottom: -200px;
   }
-  
-  #features{
-      position:relative;
-    }
-  
+}
+@media (max-width: 1000px) {
+  .img-title {
+    height: 130%;
+    width: 60%;
+    bottom: -200px;
+  }
+}
+@media (max-width: 768px) {
+  .imgTitle-container {
+    max-height: 800px;
+  }
 
-/* @media (max-width : 992px){
+  #title {
+    text-align: center;
+  }
 
-    .img-title{
-        height: 90%;
-        transform: rotate(25deg);
-        position: absolute;
-        bottom: -200px;
-    }
-} */
-/* @media (max-width : 768px){
-    
-    #title{
-        text-align: center;
-      }
-  
-    .img-title{
-        position:static;
-        transform: rotate(0);
-        height: auto;
-        width: 60%;
-    }
-} */
+  .img-title {
+    position: static;
+    transform: rotate(0);
+    height: auto;
+    width: 60%;
+    max-height: 800px;
+  }
+  .download-btn {
+    margin-top: 1rem;
+  }
+}
