@@ -1,38 +1,97 @@
 
-
-#title{
-    background-color: #ff4c68;
-    
-}
-
 /* --------------------------------- images -------------------------------------- */
-
-.img-rotation{
+.img-title {
+    width:60%;
     transform: rotate(25deg);
+    position:absolute;
+    bottom: -200px;
+  
+}
+/* .imgTitle-container{
+    max-width: 500px;
+} */
+/* --------------------------------- navbar bootstrap ---------------------------- */
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
 }
 
+
+/* -------------------------------- Buttons -------------------------------------- */
+.download-btn{
+    margin: 1rem ;
+}
 /* -------------------------------- Customs Fonts -------------------------------- */
 
-.customf-M-h1-W{
-    font-family: Montserrat-black, Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 5rem;
-    line-height: 1.5;
-    font-weight: 900;
+.customf-Monsserat {
+  font-family: Montserrat-black, Arial, Helvetica, sans-serif;
 }
 
-.customf-U{
-    font-family: Ubuntu, Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
-    font-weight: 600;
+.customf-h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
-.customf-size-header{
-    font-size: 1.5rem;
+.customf-Ubuntu {
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.customf-size-header {
+  font-size: 1.5rem;
+  font-weight: 100;
 }
 
 /* -------------------------------- containers -------------------------------- */
 
-.container-fluid {
-    padding: 3% 15%;
+.red-section{
+    background-color: #FF4C68;
+    color:#fff;
+    }
+.white-section {
+  background-color: #fff;
 }
+
+.container-fluid {
+  padding: 3% 5%;
+}
+
+/* -------------------------------- Sections ------------------------------------- */
+
+#title {
+    color: white;
+  }
+  
+  #features{
+      position:relative;
+    }
+  
+
+/* @media (max-width : 992px){
+
+    .img-title{
+        height: 90%;
+        transform: rotate(25deg);
+        position: absolute;
+        bottom: -200px;
+    }
+} */
+/* @media (max-width : 768px){
+    
+    #title{
+        text-align: center;
+      }
+  
+    .img-title{
+        position:static;
+        transform: rotate(0);
+        height: auto;
+        width: 60%;
+    }
+} */
