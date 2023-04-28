@@ -1,16 +1,36 @@
+/* --------------------------------- HTML----------------------------------------- */
+
+.hr-inv {
+  border-style: none;
+  margin: 4rem;
+}
+/* --------------------------------- icones -------------------------------------- */
+
+.icone-green {
+  color: #ef8172;
+  font-size: 5rem;
+  
+}
+.icone-green:hover {
+  color: #ff4c68;
+  font-size: 5rem;
+  
+}
+
+
 /* --------------------------------- images -------------------------------------- */
 .img-title {
-  object-fit:contain;
-  height: 180%;
+  object-fit: contain;
+  height: 140%;
   width: 60%;
   max-height: 800px;
   transform: rotate(25deg);
   position: absolute;
-  bottom: -270px;
-  left: 25%;
+  bottom: -220px;
+  left: 20%;
 }
 .imgTitle-container {
-  /* max-height: 600px; */
+
   position: relative;
 }
 /* --------------------------------- navbar bootstrap ---------------------------- */
@@ -25,29 +45,44 @@
 
 /* -------------------------------- Buttons -------------------------------------- */
 .download-btn {
-  margin-left: 1rem;
+  margin-right: 1rem;
 }
 /* -------------------------------- Customs Fonts -------------------------------- */
 
-.customf-Monsserat {
-  font-family: Montserrat-black, Arial, Helvetica, sans-serif;
+.cf-Monsserat {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 900;
 }
-
-.customf-h1 {
+.cf-MonsseratB {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.cf-Ubuntu {
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.cf-h1 {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
-.customf-Ubuntu {
-  font-family: Ubuntu, Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.customf-size-header {
+.cf-size-header {
   font-size: 1.5rem;
   font-weight: 100;
+}
+
+
+.cf-p-Features {
+  max-width: 14rem;
+  margin: auto;
+
+  font-family: Montserrat;
+  color: #8f8f8f;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 /* -------------------------------- containers -------------------------------- */
@@ -61,7 +96,7 @@
 }
 
 .container-fluid {
-  padding: 3% 5%;
+  padding: 3% 15%;
 }
 
 /* -------------------------------- Sections ------------------------------------- */
@@ -72,22 +107,31 @@
 
 #features {
   position: relative;
+  padding: 6.25rem;
 }
 
-@media (max-width: 1534px) {
+/* -------------------------------- @--media ------------------------------------- */
+
+@media (max-width: 1530px) {
   .img-title {
-    height: 140%;
+    height: 120%;
     bottom: -200px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 980px) {
   .img-title {
-    height: 130%;
-    width: 60%;
-    bottom: -200px;
+    height: 100%;
+    width: 65%;
+    bottom: -180px;
+    left: 12%;
   }
 }
 @media (max-width: 768px) {
+  .hr-inv {
+    border-style: none;
+    margin: 0px;
+  }
+
   .imgTitle-container {
     max-height: 800px;
   }
