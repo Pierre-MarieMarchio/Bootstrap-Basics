@@ -4,6 +4,7 @@
   border-style: none;
   margin: 4rem;
 }
+
 /* --------------------------------- icones -------------------------------------- */
 
 .icone-green {
@@ -17,7 +18,6 @@
   
 }
 
-
 /* --------------------------------- images -------------------------------------- */
 .img-title {
   object-fit: contain;
@@ -30,10 +30,18 @@
   left: 20%;
 }
 .imgTitle-container {
-
   position: relative;
 }
-/* --------------------------------- navbar bootstrap ---------------------------- */
+.img-testimonials{
+  width: 8rem;
+  margin: 2rem 2rem;
+}
+.img-press{
+  width: 16rem;
+  padding: 20px 20px 40px;
+}
+
+/* --------------------------------- bootstrap ---------------------------- */
 
 .navbar {
   padding-top: 0;
@@ -73,8 +81,6 @@
   font-size: 1.5rem;
   font-weight: 100;
 }
-
-
 .cf-p-Features {
   max-width: 14rem;
   margin: auto;
@@ -83,6 +89,12 @@
   color: #8f8f8f;
   font-size: 1rem;
   font-weight: 500;
+}
+.cf-em-Testimonials {
+  font-family: Montserrat;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 
 /* -------------------------------- containers -------------------------------- */
@@ -93,6 +105,10 @@
 }
 .white-section {
   background-color: #fff;
+}
+.orange-section{
+  background-color: #ef8172;
+  color: #fff;
 }
 
 .container-fluid {
@@ -108,6 +124,14 @@
 #features {
   position: relative;
   padding: 6.25rem;
+}
+
+#testimonials{
+  padding: 7% 15%;
+}
+
+#press{
+  padding-bottom: 4rem;
 }
 
 /* -------------------------------- @--media ------------------------------------- */
