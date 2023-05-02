@@ -10,12 +10,10 @@
 .icone-green {
   color: #ef8172;
   font-size: 5rem;
-  
 }
 .icone-green:hover {
   color: #ff4c68;
   font-size: 5rem;
-  
 }
 
 /* --------------------------------- images -------------------------------------- */
@@ -32,16 +30,19 @@
 .imgTitle-container {
   position: relative;
 }
-.img-testimonials{
+.img-testimonials {
   width: 8rem;
   margin: 2rem 2rem;
 }
-.img-press{
+.img-press {
   width: 16rem;
   padding: 20px 20px 40px;
 }
 
 /* --------------------------------- bootstrap ---------------------------- */
+.carousel-item {
+  padding: 7% 15%;
+}
 
 .navbar {
   padding-top: 0;
@@ -106,7 +107,7 @@
 .white-section {
   background-color: #fff;
 }
-.orange-section{
+.orange-section {
   background-color: #ef8172;
   color: #fff;
 }
@@ -126,11 +127,7 @@
   padding: 6.25rem;
 }
 
-#testimonials{
-  padding: 7% 15%;
-}
-
-#press{
+#press {
   padding-bottom: 4rem;
 }
 
