@@ -15,6 +15,9 @@
   color: #ff4c68;
   font-size: 5rem;
 }
+.icone-footer {
+  font-size: 1.5rem;
+}
 
 /* --------------------------------- images -------------------------------------- */
 .img-title {
@@ -77,6 +80,11 @@
   line-height: 1.5;
   font-weight: 900;
 }
+.cf-h1-cta {
+  font-size: 4.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
 
 .cf-size-header {
   font-size: 1.5rem;
@@ -110,6 +118,13 @@
   color: #8f8f8f;
   font-size: 1rem;
   font-weight: 500;
+}
+
+.cf-p-Footer {
+  font-family: Montserrat;
+  color: #8f8f8f;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 /* -------------------------------- containers -------------------------------- */
@@ -147,6 +162,14 @@
 
 #pricing{
   margin: 7% 7%;
+}
+
+#cta {
+  padding: 5% 15%;
+}
+
+#footer{
+  padding: 5% 10%;
 }
 
 /* -------------------------------- @--media ------------------------------------- */
