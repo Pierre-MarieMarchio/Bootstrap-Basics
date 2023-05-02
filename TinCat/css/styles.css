@@ -91,11 +91,25 @@
   font-size: 1rem;
   font-weight: 500;
 }
+
 .cf-em-Testimonials {
   font-family: Montserrat;
   color: #fff;
   font-size: 0.8rem;
   font-weight: 400;
+}
+
+.cf-h2-Pricing {
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 1rem;
+}
+.cf-p-Pricing {
+  font-family: Montserrat;
+  color: #8f8f8f;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 /* -------------------------------- containers -------------------------------- */
@@ -129,6 +143,10 @@
 
 #press {
   padding-bottom: 4rem;
+}
+
+#pricing{
+  margin: 7% 7%;
 }
 
 /* -------------------------------- @--media ------------------------------------- */
